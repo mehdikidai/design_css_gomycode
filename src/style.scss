@@ -55,6 +55,8 @@ body {
                             gap: 20px;
                             padding-inline: 20px;
                             .stars {
+                                display: flex;
+                                align-items: center;
                                 img {
                                     width: 20px;
                                     height: 20px;
