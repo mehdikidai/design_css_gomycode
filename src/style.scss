@@ -127,12 +127,15 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-    body .app .section-two .box {
-        &:nth-child(2){
-            transform: translateY(20px);
-        }
-        &:nth-child(3){
-            transform: translateY(40px);
+    body .app .section-two {
+        padding-bottom: 40px;
+        .box {
+            &:nth-child(2) {
+                transform: translateY(20px);
+            }
+            &:nth-child(3) {
+                transform: translateY(40px);
+            }
         }
     }
 }
